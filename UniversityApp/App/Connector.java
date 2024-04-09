@@ -32,8 +32,8 @@ public class Connector {
 	        while(resultSet.next()){
 	             String rollNo=resultSet.getString("Emri");
 	             String name=resultSet.getString("Mbiemri");
-	             String dept=resultSet.getString("Email");
-	             String passw=resultSet.getString("Password");
+	             String email=resultSet.getString("Email");
+	             String psw=resultSet.getString("Password");
 	             //Printing Results
 	             System.out.println(rollNo+" "+name+" "+dept+" "+passw);
 	        }
